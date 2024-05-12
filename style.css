@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant,-apple-system, BlinkMacSystemFont,segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    background-color: #ffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+    
+
+}
+
+.logo_container{
+    margin-left: 4%;
+}
+
+.myntra-home{
+    height: 45px;
+    
+}
+
+.action_bar{
+    margin-right: 4%;
+}
+
+.nav_bar{
+    display: flex;
+    min-width:515px;
+    justify-content:space-evenly;
+}
+
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 28px 0px;
+    border-bottom: 4px solid #ffff;
+}
+
+.nav_bar a:hover{
+    border-bottom: 5px solid #f54e77;
+}
+
+.nav_bar a sup{
+       font-size: 10px;
+       color: #ff3f6c;
+}
+
+.search_bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.search_icon{
+  height: 20px;
+  padding: 10px;
+  box-sizing: content-box;
+  background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 5px 0 0 5px;
+}
+
+.search_input{
+   color: #696e79;
+   background-color: #f5f5f6;
+   flex-grow: 1;
+   height: 40px;
+   border: 0;
+   border-radius: 0px 5px 5px 0px;
+}
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_colum h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+
+.footer_colum a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+
+}
+
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 15px
+}
+
+.items-conatiner{
+     width: 80%;
+     margin: 40px 10%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+
+.item-conatiner{
+       width: 250px;
+       margin: 20px;
+}
+
+.item_img{
+      width: 100%;
+}
+
+.rating{
+      font-size:12px ;
+      font-weight: 700;
+}
+
+.company-name{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.item_name{
+   color: #535766;
+   font-size: 14px;
+   line-height: 1;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   overflow: hidden;
+   font-weight: 400;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   display: block;
+}
+
+.price{
+    font-size: 14px;
+    line-height: 15px;
+    white-space: nowrap;
+    color: #282c3f;
+    margin-top: 10px;
+
+}
+
+.current_price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.original_price{
+    font-size: 14px;
+    margin-left: 5px;
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+}
+
+.discount{
+  color: #ff905a;
+  font-size: 12px;
+  margin-left: 5px;
+  font-size: 400;
+}
+
+
+.btn-add-bag{
+    width: 100%;
+    margin-top: 8px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10pc;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.bag_item-count{
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0px 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    columns: #ffff;
+    left: 13px;
+    top:-44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.action_container{
+    text-decoration: none;
+}
+
+a.action_container:link{
+    color: black;
+}
